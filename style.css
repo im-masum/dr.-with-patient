@@ -187,9 +187,11 @@ header .container {
 
     .nav ul {
         margin-top: 20px;
-        gap: 1.5rem;
+        gap: 5px;
     }
-
+    .nav a{
+        font-size: 16px;
+    }
     .hero .container-1 {
         flex-direction: column;
     }
