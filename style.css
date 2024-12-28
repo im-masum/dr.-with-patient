@@ -30,6 +30,22 @@ header .container {
 
 }
 
+.image {
+    display: flex;
+    width: 150px;
+    height: 130px;
+    box-shadow: 0 10px 30px rgba(2, 242, 250, 0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.image img {
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 .logo {
     padding: 10px 20px;
     box-shadow: 0 10px 20px rgba(2, 242, 250, 0.5);
@@ -189,9 +205,11 @@ header .container {
         margin-top: 20px;
         gap: 5px;
     }
-    .nav a{
+
+    .nav a {
         font-size: 16px;
     }
+
     .hero .container-1 {
         flex-direction: column;
     }
@@ -206,7 +224,8 @@ header .container {
 
 
     }
-    .footer{
+
+    .footer {
         position: relative;
         bottom: 10px;
     }
